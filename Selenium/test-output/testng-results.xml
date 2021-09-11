@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2021-08-21T15:45:24Z" name="Default suite" finished-at="2021-08-21T15:45:28Z" duration-ms="4793">
+  <suite started-at="2021-09-11T16:33:10Z" name="Default suite" finished-at="2021-09-11T16:33:14Z" duration-ms="4094">
     <groups>
     </groups>
-    <test started-at="2021-08-21T15:45:24Z" name="Default test" finished-at="2021-08-21T15:45:28Z" duration-ms="4793">
-      <class name="NewTest">
-        <test-method signature="f()[pri:0, instance:NewTest@5be49b60]" started-at="2021-08-21T10:45:24Z" name="f" finished-at="2021-08-21T10:45:28Z" duration-ms="4759" status="PASS">
+    <test started-at="2021-09-11T16:33:10Z" name="Default test" finished-at="2021-09-11T16:33:14Z" duration-ms="4094">
+      <class name="AssertionsExample.HardAssetExample">
+        <test-method signature="TC_VerifyPageTitle()[pri:0, instance:AssertionsExample.HardAssetExample@2931522b]" started-at="2021-09-11T11:33:10Z" name="TC_VerifyPageTitle" finished-at="2021-09-11T11:33:14Z" duration-ms="4063" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- f -->
-      </class> <!-- NewTest -->
+        </test-method> <!-- TC_VerifyPageTitle -->
+      </class> <!-- AssertionsExample.HardAssetExample -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>
