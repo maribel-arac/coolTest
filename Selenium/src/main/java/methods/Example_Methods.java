@@ -14,11 +14,20 @@ public class Example_Methods {
 		
 		String vehicles = car(4);
 		System.out.println(vehicles);
+		
+		int sumResult = sum(3,6,8);
+		System.out.println(sumResult);
 
 	}
 	public static int sum(int a, int b) {
 		int c = a + b;
 		return c;
+	}
+	//this is an example of overloading
+	public static int sum(int a, int b, int c) {
+		int d = a + b + c;
+		return d; 
+		
 	}
 	
 	public static String car(int a) {
