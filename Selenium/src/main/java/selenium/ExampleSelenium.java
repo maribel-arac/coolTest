@@ -82,7 +82,7 @@ public class ExampleSelenium {
 		leaveTypeDropdown.selectByValue("8");
 		Thread.sleep(2000);
 		
-		 driver.quit(); // cierra la ventana
+		 driver.quit(); // cierra broswer
 
 	}
 

@@ -3,11 +3,13 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test name="Default test(failed)">
     <classes>
-      <class name="AssertionsExample.SoftAssetExample">
+      <class name="loginTests.TC_003">
         <methods>
-          <include name="softAssertExampleSelenium"/>
+          <include name="startWebDriver"/>
+          <include name="TC_003_Logout"/>
+          <include name="closeDriver"/>
         </methods>
-      </class> <!-- AssertionsExample.SoftAssetExample -->
+      </class> <!-- loginTests.TC_003 -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->
