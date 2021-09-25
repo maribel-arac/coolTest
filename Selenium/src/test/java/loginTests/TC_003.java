@@ -10,6 +10,7 @@ import driverSetup.DriverSetup;
 import globalVariables.GlobalVariables;
 import navigationPages.DashboardPage;
 import navigationPages.LoginPage;
+import wrapper.CommonMethods;
 
 public class TC_003 {
 	
@@ -33,6 +34,7 @@ public class TC_003 {
 	
 	@AfterTest
 	public void closeDriver() {
+		CommonMethods.takeScreenshoot(driver, "TC_003_Logout");
 		driver.close();
 	}
 
